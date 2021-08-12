@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.exe
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.deps.json
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.runtimeconfig.json
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.runtimeconfig.dev.json
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.dll
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\bin\Debug\netcoreapp3.1\MaximumNumber.pdb
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.AssemblyInfo.cs
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.dll
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.pdb
+C:\Users\HP\source\repos\MaximumNumber\MaximumNumber\obj\Debug\netcoreapp3.1\MaximumNumber.genruntimeconfig.cache
