@@ -21,6 +21,24 @@ namespace MaximumNumber
             {
                 return thirdnumber;
             }
+          throw new Exception("firstNumber,SecondNumber,Thirdnumber are same ");
+
+        }
+        public static double MaximumFloatNumberCheck(double firstnumber, double secondnumber, double thirdnumber)
+        {
+            if (firstnumber.CompareTo(secondnumber) > 0 && firstnumber.CompareTo(thirdnumber) > 0 || firstnumber.CompareTo(secondnumber) >= 0 && firstnumber.CompareTo(thirdnumber) > 0 || firstnumber.CompareTo(secondnumber) > 0 && firstnumber.CompareTo(thirdnumber) >= 0)
+            {
+                return firstnumber;
+
+            }
+            if (secondnumber.CompareTo(firstnumber) > 0 && secondnumber.CompareTo(thirdnumber) > 0 || secondnumber.CompareTo(firstnumber) >= 0 && secondnumber.CompareTo(thirdnumber) > 0 || secondnumber.CompareTo(firstnumber) > 0 && secondnumber.CompareTo(thirdnumber) >= 0)
+            {
+                return secondnumber;
+            }
+            if (thirdnumber.CompareTo(firstnumber) > 0 && thirdnumber.CompareTo(secondnumber) > 0 || thirdnumber.CompareTo(firstnumber) >= 0 && thirdnumber.CompareTo(secondnumber) > 0 || thirdnumber.CompareTo(firstnumber) > 0 && thirdnumber.CompareTo(secondnumber) >= 0)
+            {
+                return thirdnumber;
+            }
             throw new Exception("firstNumber,SecondNumber,Thirdnumber are same ");
 
         }
