@@ -14,6 +14,8 @@ namespace MaximumNumber
             double floatoutput = NumberCheck.MaximumFloatNumberCheck(11.2, 33.5, 3.7);
             Console.WriteLine(floatoutput);
 
+            string stringoutput = NumberCheck.MaximumStringIntegerNumber("apple", "banana", "peach");
+            Console.WriteLine(stringoutput);
 
         }
     }
