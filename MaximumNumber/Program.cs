@@ -6,7 +6,7 @@ namespace MaximumNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Maximum value programs using generic");
+            Console.WriteLine("Welcome to Maximum programs using generic");
             int output = NumberCheck.MaximumNumberCheck(33, 66, 44);
             Console.WriteLine(output);
 
