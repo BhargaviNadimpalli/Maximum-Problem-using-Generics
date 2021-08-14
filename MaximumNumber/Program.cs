@@ -7,14 +7,14 @@ namespace MaximumNumber
         static void Main(string[] args)
         {
             
-            Generic generic = new Generic();
-            generic.Compare<int>(66,63,44);
-            Console.ReadLine();
+            Generic<int> generic = new Generic<int>();
+            generic.Compare(66,63,44);
 
-            generic.Compare<float>(66.4f, 69.5f, 44.3f);
-            Console.ReadLine();
+            Generic<float> generic1 = new Generic<float>();
+            generic1.Compare(66.4f, 69.5f, 44.3f);
 
-            generic.Compare<string>("Apple", "Banana", "Peach");
+            Generic<string> generic2 = new Generic<string>();
+            generic2.Compare("Apple", "Banana", "Peach");
             Console.ReadLine();
 
 

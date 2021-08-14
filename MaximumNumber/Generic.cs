@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MaximumNumber
 {
-    public class Generic
+    public class Generic<T>
     {
-        public void Compare<T>(T a, T b, T c)     
+        public void Compare(T a, T b, T c)     
         {
             dynamic d1 = a;
             dynamic d2 = b;
