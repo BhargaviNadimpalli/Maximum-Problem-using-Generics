@@ -6,16 +6,17 @@ namespace MaximumNumber
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Maximum programs using generic");
             
-            int output = NumberCheck.MaximumNumberCheck(33, 44, 66);
-            Console.WriteLine(output);
+            Generic generic = new Generic();
+            generic.Compare<int>(66,63,44);
+            Console.ReadLine();
 
-            double floatoutput = NumberCheck.MaximumFloatNumberCheck(11.2, 33.5, 3.7);
-            Console.WriteLine(floatoutput);
+            generic.Compare<float>(66.4f, 69.5f, 44.3f);
+            Console.ReadLine();
 
-            string stringoutput = NumberCheck.MaximumStringIntegerNumber("apple", "banana", "peach");
-            Console.WriteLine(stringoutput);
+            generic.Compare<string>("Apple", "Banana", "Peach");
+            Console.ReadLine();
+
 
         }
     }
