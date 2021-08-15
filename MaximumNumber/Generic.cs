@@ -4,28 +4,37 @@ using System.Text;
 
 namespace MaximumNumber
 {
-    public class Generic<T>
+    class Generic<T> where T : IComparable
+
     {
-        public void Compare(T a, T b, T c)     
+        public T[] value;
+
+        public Generic(T[] value)
         {
-            dynamic d1 = a;
-            dynamic d2 = b;
-            dynamic d3 = c;
-            if (d1.CompareTo(d2) > 0 && d1.CompareTo(d3) > 0)
-
-                Console.WriteLine("The largest number is : " + d1);
-
-            if (d2.CompareTo(d1) > 0 && d2.CompareTo(d3) > 0)
-
-                Console.WriteLine("The largest number is : " + d2);
-
-            if (d3.CompareTo(d1) > 0 && d3.CompareTo(d2) > 0)
-
-                Console.WriteLine("The largest number is : " + d3);
+            this.value = value;
         }
+
+        public T[] Sort(T[] values)
+        {
+            Array.Sort(values);
+            return values;
+        }
+
+        public T MaxValue(params T[] values)
+        {
+            var sorted_values = Sort(values);
+            return sorted_values[^1];
+        }
+
+        public void PrintMaxValue()
+        {
+            var max = MaxValue(this.value);
+            Console.WriteLine("maximum value is " + max);
+        }
+
     }
+
 }
-            
-            
-           
-            
+
+
+

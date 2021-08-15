@@ -6,15 +6,17 @@ namespace MaximumNumber
     {
         static void Main(string[] args)
         {
-            
-            Generic<int> generic = new Generic<int>();
-            generic.Compare(66,63,44);
+            int[] intArray = {66, 63, 44, 77,88,99};
+            Generic<int> generic = new Generic<int>(intArray);
+            generic.PrintMaxValue();
 
-            Generic<float> generic1 = new Generic<float>();
-            generic1.Compare(66.4f, 69.5f, 44.3f);
+            double[] doubleArray = { 26.4, 6.5, 44.3,55.6,77.4,66.5 };
+            Generic<double> generic1 = new Generic<double>(doubleArray);
+            generic1.PrintMaxValue();
 
-            Generic<string> generic2 = new Generic<string>();
-            generic2.Compare("Apple", "Banana", "Peach");
+            string[] stringArray = { "Apple", "Banana", "Peach", "Orange", "Grapes","Kiwi" };
+            Generic<string> generic2 = new Generic<string>(stringArray);
+            generic2.PrintMaxValue();
             Console.ReadLine();
 
 
